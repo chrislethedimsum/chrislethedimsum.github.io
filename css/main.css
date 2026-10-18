@@ -1,0 +1,72 @@
+.tuffy-regular {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tuffy-bold {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.tuffy-regular-italic {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tuffy-bold-italic {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  background-color: #333333;
+}
+
+ul li {
+  padding: 10px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#container {
+  min-height: 100vh;
+  position: relative;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
